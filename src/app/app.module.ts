@@ -12,6 +12,7 @@ import { DashboardComponent } from './features/dashboard/dashboard.component';
 import { HeroListComponent } from './features/heroes/hero-list/hero-list.component';
 import { InMemoryDataService } from './core/services/in-memory-data.service';
 import { HeroSearchComponent } from './features/heroes/hero-search/hero-search.component';
+import { HeroFormComponent } from './features/heroes/hero-form/hero-form.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HeroSearchComponent } from './features/heroes/hero-search/hero-search.c
     MessagesComponent,
     DashboardComponent,
     HeroListComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    HeroFormComponent
   ],
   imports: [
     BrowserModule,
